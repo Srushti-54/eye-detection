@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Items</title>
+</head>
+<body>
+
+<h2>Upload images of items:</h2>
+
+<form action="http://127.0.0.1:5000/upload" 
+   method="POST" 
+   enctype="multipart/form-data">
+   <input type="file" name="files" multiple required>
+   <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
